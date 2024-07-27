@@ -5,7 +5,7 @@ def build_global_menu():
     builder = ReplyKeyboardBuilder()
     builder.button(text="Список тварин")
     builder.button(text="Додати нову тварину")
-    builder.button(text="Список вилікуваних тварин")
+    builder.button(text="Показати список вилікуваних тварин")
     builder.button(text="Додати відгук")
     builder.button(text="Показати всі відгуки")
     builder.adjust(1)

@@ -22,7 +22,7 @@ def cured_animal(prod_index: int) -> str:
     cured_animals.append(animal)
 
     with open(list_files.ANIMALS, "w", encoding="utf-8") as file:
-        json.dump(animal, file)
+        json.dump(animals, file)
 
     with open(list_files.CURED_ANIMALS, "w", encoding="utf-8") as file:
         json.dump(cured_animals, file)
